@@ -5,7 +5,8 @@ function onSubmitHandler(event) {
   if(captchaChecked){
     let element = document.querySelector("#lead-date");
     let hiddenDate = document.querySelector(".hidden-date");
-    hiddenDate.value = new Date(element.value).toLocaleDateString("en-IN");
+    let formattedDate = new Date(element.value).toLocaleDateString("en-IN");
+    hiddenDate.value = formattedDate;
   }
   else {
     alert('Please complete the recaptcha!')
