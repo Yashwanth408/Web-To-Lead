@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+    color: green;
+}
+
+
+
+input, label {
+    display: block;
+}
+
+label{
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    width: 100%;
+}
+
+.submit {
+    background: lightgreen;
+    border-radius: 5px;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form {
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+}

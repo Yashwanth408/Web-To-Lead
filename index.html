@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web To Lead Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <div class="heading"><h2>Please fill the form to subscribe</h2></div>
+
+    <form onsubmit="onSubmitHandler(event)"
+      action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5j00000C9tsp"
+      method="POST"
+    >
+      <input type="hidden" name="oid" value="00D5j00000C9tsp" />
+      <input type="hidden" name="retURL" value="https://chat.openai.com/chat" />
+      <input class="hidden-date" type="hidden" name="hidden-date" id="00N5j00000VfpQR" name="00N5j00000VfpQR" />
+
+
+      <label for="first_name">First Name</label
+      ><input
+        id="first_name"
+        maxlength="40"
+        name="first_name"
+        size="20"
+        type="text"
+        required
+      /><br />
+
+      <label for="last_name">Last Name</label
+      ><input
+        id="last_name"
+        maxlength="80"
+        name="last_name"
+        size="20"
+        type="text"
+        required
+      /><br />
+
+      <label for="email">Email</label
+      ><input
+        id="email"
+        maxlength="80"
+        name="email"
+        size="20"
+        type="text"
+        required
+      /><br />
+
+      <label for="city">City</label
+      ><input
+        id="city"
+        maxlength="40"
+        name="city"
+        size="20"
+        type="text"
+      /><br />
+
+      <label for="lead-date">Lead Date</label
+        ><input
+          id="lead-date"
+          maxlength="40"
+          name="lead-date"
+          size="20"
+          type="date"
+          required
+        /><br />
+
+      <!-- Lead Date:<span class="dateInput dateOnlyInput"
+        ><input
+          id="00N5j00000VfpQR"
+          name="00N5j00000VfpQR"
+          size="12"
+          type="text" /></span
+      ><br /> -->
+
+      <input class="submit" type="submit" name="submit" />
+    </form>
+  </body>
+  <script src="script.js" type="text/javascript"></script>
+</html>
